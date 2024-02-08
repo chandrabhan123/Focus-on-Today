@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(186, 193, 199);
+}
+
+.contaier {
+    min-height: 80vh;
+    width: 40vw;
+    margin: 2% 30%;
+}
+
+.contaier h1 {
+    text-align: center;
+    font-size: 32px;
+    color: green;
+    justify-content: center;
+
+}
+
+.contaier h1 span {
+    color: rgb(107, 51, 51);
+
+}
+
+.card {
+    min-height: 73vh;
+    width: 40vw;
+    background-color: white;
+    margin: 5% 5%;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 5px rgb(167, 165, 165);
+}
+
+.card-content {
+    padding: 30px;
+}
+
+.card-content h2 img {
+    width: 40px;
+    vertical-align: middle;
+}
+
+.pregress-level {
+    margin-top: 15px;
+    font-size: 18px;
+    color: black;
+}
+
+.progress-bar {
+    margin-top: 18px;
+    height: 25px;
+    background-color: rgb(193, 190, 190);
+    border-radius: 15px;
+}
+
+.progress-value {
+    height: 100%;
+    width: 0;
+    background-color: rgb(7, 181, 7);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+
+    color: azure;
+    font-size: 18px;
+    font-weight: 500;
+    overflow: hidden;
+  
+}
+.progress-value span{
+    padding-left: 10px;
+}
+.error-label {
+    margin-top: 20px;
+    color: red;
+    font-size: 16px;
+}
+
+.input-field {
+    height: 70px;
+    background-color: rgb(232, 235, 239);
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 22px;
+    left: 16px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 2px solid rgb(100, 98, 98);
+    cursor: pointer;
+}
+
+.input-field input {
+    width: 450px;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: 0;
+    border: 0;
+    padding: 8px;
+    background-color: rgb(231, 228, 228);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.input-field input:hover {
+    border: 1px solid gray;
+}
+
+
+.quote {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.creater{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.completed .circle {
+background-color: green;
+}
+.check-icon{
+    display: none;
+}
+
+.completed .check-icon{
+    display: block;
+}
+.completed .input{
+    color: rgb(1, 133, 1);
+    text-decoration: line-through;
+}
+.error-label{
+    display: none;
+}
